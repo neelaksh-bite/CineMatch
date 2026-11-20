@@ -1,0 +1,1 @@
+CineMatch standalone prototype: movie data, scores, reviews, vote counts and provider labels are sample content. Poster-like images are sourced from Unsplash image URLs and are illustrative, not official movie artwork.

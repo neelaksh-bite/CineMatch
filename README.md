@@ -1,21 +1,10 @@
-# 🎬 CineMatch
+# CineMatch standalone demo
 
-CineMatch is a modern movie discovery website designed to help users explore movies through cinematic visuals, ratings, reviews, and curated movie collections.
+This version does not use TMDB, an API key, or live movie data. It runs locally and uses online Unsplash imagery plus sample movie details, ratings, vote counts, reviews, and streaming labels. The sample ratings and labels are not real.
 
-### Features
-- Browse trending, popular, and top-rated movies
-- Search movies
-- View movie details
-- Explore ratings, reviews, and movie information
-- Add movies to your personal watchlist
-- Responsive and modern cinematic UI
-- Demo movie data without requiring an external API key
+## Run
+1. In this folder run `npm install` (Express is the only dependency).
+2. Run `npm start`.
+3. Open http://localhost:3000
 
-### Tech Stack
-- HTML
-- CSS
-- JavaScript
-- Node.js
-- Express.js
-
-*Note: Ratings, reviews, and other movie statistics are demo data and may not reflect real-world information.*
+Watchlist is saved in your browser localStorage. Images need an internet connection.
